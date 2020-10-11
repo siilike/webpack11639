@@ -1,0 +1,9 @@
+try
+{
+	require('preact').cloneElement
+	console.log('works');
+}
+catch(e)
+{
+	console.log(e);
+}
